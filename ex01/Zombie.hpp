@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: smarquez <smarquez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/01 12:08:46 by smarquez          #+#    #+#             */
-/*   Updated: 2025/09/01 13:44:36 by smarquez         ###   ########.fr       */
+/*   Created: 2025/09/01 13:47:09 by smarquez          #+#    #+#             */
+/*   Updated: 2025/09/01 13:57:29 by smarquez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@
 class Zombie
 {
     public: 
+        Zombie();
         Zombie(std::string name);
         ~Zombie();
         
@@ -35,14 +36,7 @@ class Zombie
         std::string name;
 };
 
-    Zombie *newZombie(std::string name); //asignacion heap
-    void randomChump(std::string name); //asignacion stack
+    Zombie *zombieHorde(int N,  std::string name);
+
 
 #endif
-
-
-
-//Clase zombie con constructor con parametros y destructor.
-//funcion de announce para imprimir mensaje y setName para poner el nombre.
-
-//Funciones de asignacion de memoria fuera de la clase zombie.

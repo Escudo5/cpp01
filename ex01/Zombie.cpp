@@ -5,14 +5,17 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: smarquez <smarquez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/01 12:17:33 by smarquez          #+#    #+#             */
-/*   Updated: 2025/09/01 13:43:06 by smarquez         ###   ########.fr       */
+/*   Created: 2025/09/01 13:48:29 by smarquez          #+#    #+#             */
+/*   Updated: 2025/09/01 14:16:53 by smarquez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-
+Zombie::Zombie()
+{
+    
+}
 Zombie::Zombie(std::string zombieName)
 {
     name = zombieName;
@@ -35,7 +38,5 @@ void Zombie::setName(std::string newName)
 }
 
 
-//llamo al constructor con parametros.
-//print de destructor
-// la funcion announce imprime el mensaje indicado en el subject
-//funcion setName para poner el nombre de la variable.
+
+//Mismas funciones que en ex00, peor he añadido constructor sin argumentos

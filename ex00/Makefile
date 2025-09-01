@@ -16,11 +16,11 @@ $(NAME): $(OBJ)
 
 clean:
 	@rm -rf $(OBJ)
-	@echo "[PhoneBook] Object files cleaned."
+	@echo "[BraiiiiiiinnnzzzZ] Object files cleaned."
 
 fclean: clean
 	@rm -rf $(NAME)
-	@echo "[PhoneBook] Executable cleaned."
+	@echo "[BraiiiiiiinnnzzzZ] Executable cleaned."
 
 re: fclean all
 

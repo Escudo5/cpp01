@@ -6,7 +6,7 @@
 /*   By: smarquez <smarquez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/01 13:48:29 by smarquez          #+#    #+#             */
-/*   Updated: 2025/09/01 14:16:53 by smarquez         ###   ########.fr       */
+/*   Updated: 2025/09/02 10:40:48 by smarquez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,4 +39,4 @@ void Zombie::setName(std::string newName)
 
 
 
-//Mismas funciones que en ex00, peor he añadido constructor sin argumentos
+//Mismas funciones que en ex00, pero he añadido constructor sin argumentos

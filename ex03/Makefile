@@ -1,6 +1,6 @@
 NAME    = UnnecessaryViolence
 
-SRC     = main.cpp Weapon.cpp HumanA.hpp HumanB.cpp 
+SRC     = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp 
 OBJ     = $(SRC:.cpp=.o)
 
 CC      = c++

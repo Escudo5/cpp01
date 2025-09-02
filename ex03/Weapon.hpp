@@ -6,7 +6,7 @@
 /*   By: smarquez <smarquez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/01 15:50:05 by smarquez          #+#    #+#             */
-/*   Updated: 2025/09/02 16:16:52 by smarquez         ###   ########.fr       */
+/*   Updated: 2025/09/02 16:31:35 by smarquez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,14 @@
 
 #include <string>
 #include <iostream>
-// #include "HumanA.hpp"
-// #include "HumanB.hpp"
+
 
 class Weapon
 {
     public:
         Weapon(const std::string &type);
         ~Weapon();
-        const std::string &getType()const;
+        const std::string &getType() const;
         void setType(const std::string &newType);
 
 

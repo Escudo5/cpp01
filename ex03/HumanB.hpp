@@ -6,7 +6,7 @@
 /*   By: smarquez <smarquez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/02 11:05:57 by smarquez          #+#    #+#             */
-/*   Updated: 2025/09/02 12:24:33 by smarquez         ###   ########.fr       */
+/*   Updated: 2025/09/02 16:00:45 by smarquez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class HumanB
 
 
 
-    void setWeapon(Weapon *newWeapon);
+    void setWeapon(Weapon &newWeapon);
     void attack();
 
 

@@ -6,7 +6,7 @@
 /*   By: smarquez <smarquez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/02 11:02:29 by smarquez          #+#    #+#             */
-/*   Updated: 2025/09/02 12:30:55 by smarquez         ###   ########.fr       */
+/*   Updated: 2025/09/02 16:02:23 by smarquez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,8 @@ class HumanA
 
 
     private: 
-        Weapon &weapon;
         std::string name;
+        Weapon &weapon;
 
 
 

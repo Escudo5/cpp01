@@ -6,7 +6,7 @@
 /*   By: smarquez <smarquez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/01 15:50:05 by smarquez          #+#    #+#             */
-/*   Updated: 2025/09/02 11:23:07 by smarquez         ###   ########.fr       */
+/*   Updated: 2025/09/02 12:20:30 by smarquez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ class Weapon
 {
     public:
         Weapon(const std::string &type);
+        ~Weapon();
         const std::string &getType()const;
         void setType(const std::string &newType);
 

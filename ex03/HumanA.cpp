@@ -6,7 +6,7 @@
 /*   By: smarquez <smarquez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/02 11:35:37 by smarquez          #+#    #+#             */
-/*   Updated: 2025/09/02 11:45:08 by smarquez         ###   ########.fr       */
+/*   Updated: 2025/09/02 12:19:52 by smarquez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,5 @@ HumanA::HumanA(const std::string &name_param, Weapon &weapon_param): name(name_p
 
 void attack(void)
 {
-    std::cout << HumanA::name << "attacks with their" << HumanA::
+    std::cout << HumanA::name << "attacks with their" << 
 }
